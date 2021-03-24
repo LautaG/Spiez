@@ -1,13 +1,24 @@
-.ltts_0 {
-  letter-spacing: 0px;
+.title {
+  color: #000;
 }
 
-.ltts_1 {
-  letter-spacing: 1px;
+.spacer {
+  height: 25px;
+  display:none;
 }
 
-.ltts_2 {
-  letter-spacing: 2px;
+.spacer-1 {
+  height: 35px;
+  display:none;
+}
+
+.spacer-2 {
+  height: 150px;
+  display:none;
+}
+
+.f-8 {
+  font-weight: 800;
 }
 
 .center,
