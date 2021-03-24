@@ -6,26 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
 
+
     <link rel="stylesheet" href="css/glide.core.min.css">
     <link rel="stylesheet" href="css/glide.theme.min.css">
     <link rel="stylesheet" href="css/helpers.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <style>
-        section.py-6 {
-            padding-top: 0px !important;
-            padding-bottom: 0px !important;
-        }
-
-        @media screen and (min-width: 960px) {
-            section.py-6 {
-                padding-top: 3rem !important;
-                padding-bottom: 3rem !important;
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -33,11 +22,12 @@
 
         <nav class="navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
-                <a class="navbar-item" href="index.html">
+                <a class="navbar-item" href="https://bulma.io">
                     <img src="img/logo-header-1.svg" width="200">
                 </a>
 
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -93,27 +83,27 @@
         </nav>
     </header>
     <section id="hero" class="hero is-large">
-        <article class="hero-body is-flex px-0">
-            <div class="hero-body-info">
-                <img class="img-logo" src="img/logo-n.svg" alt="">
-                <h1 class="hero-body-info-title is-paddingless">
-                    Especialistas <br> en limpieza
+        <article class="columns hero-body is-align-content-center px-0">
+
+            <div class="hero-body-info column is-three-fifths-desktop">
+                <h1 class="hero-body-info-title is-paddingless has-text-white">
+                    Especialistas en limpieza
                 </h1>
                 <a href=""
-                    class="button is-medium single-spaced is-primary has-text-weight-bold is-rounded">Contactenos</a>
+                    class="button is-medium single-spaced is-primary has-text-weight-medium is-rounded">Contactenos</a>
             </div>
         </article>
     </section>
 
     <section class="nos">
-        <article class="nos-body">
-            <div class="nos-body-img is-paddingless">
+        <article class="nos-body columns">
+            <div class="column nos-body-img is-paddingless">
                 <img class="img-back" src="img/nos.jpg" alt="" srcset="">
                 <img class="img-logo" src="img/logo-n.svg" alt="">
                 <div class="overlay"></div>
             </div>
-            <div class="nos-body-info is-flex is-flex-direction-column is-justify-content-center">
-                <h2 class="is-size-3-mobile is-size-2-desktop f-8 block">Sobre nosotros</h2>
+            <div class="nos-body-info column is-flex is-flex-direction-column is-paddingless is-justify-content-center">
+                <h2 class="is-size-2 f-8 block">Sobre nosotros</h2>
                 <p class="block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis velit deleniti
                     accusantium,
                     harum ipsum
@@ -127,95 +117,20 @@
 
     </section>
 
-    <section class="serv-slider pb-6">
-
-        <div class="serv-slider-glide">
-            <div class="met-body-title center-column  has-text-black">
-                <h2 class="is-size-3-mobile servicios-title has-text-centered f-8 pb-5 mx-5">
-                    Nuestros servicios</h2>
-
-            </div>
-            <div class="glide__track" data-glide-el="track">
-                <ul class="glide__slides">
-                    <li class="glide__slide">
-                        <div class="mx-5">
-                            <div class="overlay"></div>
-                            <img src="img/hero-m-1.jpg" alt="">
-
-                            <div class="info px-5 pb-5">
-                                <h4 class="is-size-5 is-uppercase has-text-weight-bold mb-2">Limpieza</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellendus
-                                    culpa adipisci
-                                    omnis perspiciatis inventore, excepturi cumque eveniet, voluptatum enim maxime
-                                    ut quae fuga
-                                    quod!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="glide__slide">
-                        <div class="mx-5">
-                            <div class="overlay"></div>
-                            <img src="img/servicios-1.jpg" alt="">
-
-                            <div class="info px-5 pb-5">
-                                <h4 class="is-size-5 is-uppercase has-text-weight-bold mb-2">Mantenimiento</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellendus
-                                    culpa adipisci
-                                    omnis perspiciatis inventore, excepturi cumque eveniet, voluptatum enim maxime
-                                    ut quae fuga
-                                    quod!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="glide__slide">
-                        <div class="mx-5">
-                            <img src="img/servicios-2.jpg" alt="">
-
-                            <div class="info px-5 pb-5">
-                                <h4 class="is-size-5 is-uppercase has-text-weight-bold mb-2">Conserjería</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellendus
-                                    culpa adipisci
-                                    omnis perspiciatis inventore, excepturi cumque eveniet, voluptatum enim maxime
-                                    ut quae fuga
-                                    quod!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="glide__slide">
-                        <div class="mx-5">
-                            <img src="img/servicios-3.jpg" alt="">
-
-                            <div class="info px-5 pb-5">
-                                <h4 class="is-size-5 is-uppercase has-text-weight-bold mb-2">Parquizado</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellendus
-                                    culpa adipisci
-                                    omnis perspiciatis inventore, excepturi cumque eveniet, voluptatum enim maxime
-                                    ut quae fuga
-                                    quod!</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
     <section id="servicios" class="py-6">
         <article class="servicios-header py-6">
             <div class="servicios-header-container center">
-                <h2 class="is-size-3-mobile is-size-2-desktop servicios-title has-text-black f-8">Nuestros servicios
-                </h2>
+                <h2 class="is-size-2 servicios-title has-text-black f-8">Nuestros servicios</h2>
             </div>
         </article>
 
         <article class="servicios">
 
-            <a class="servicios-item-big center-column">
-                <div class="overlay"></div>
-                <div class="overlay-1"></div>
+            <a class="servicios-item-big center-column px-6">
+
                 <div class="servicios-item-big-info">
                     <div href="" class="servicios-item-info-title">
-                        <h3 class="is-size-5-mobile is-size-4-desktop has-text-weight-bold my-4">
+                        <h3 class="is-size-4 has-text-weight-bold my-4">
                             Limpieza y desinfección</h3>
                         <p class="block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis
                             voluptatum maxime, eum
@@ -225,12 +140,10 @@
             </a>
 
             <a class="servicios-item center-column serv-1">
-                <div class="overlay"></div>
-                <div class="overlay-1"></div>
                 <div class="servicios-item-info">
                     <div href="" class="servicios-item-info-title">
 
-                        <h3 class="is-size-5-mobile is-size-4-desktop has-text-weight-bold my-4"> Mantenimiento</h3>
+                        <h3 class="is-size-4 has-text-weight-bold my-4"> Mantenimiento</h3>
                         <p class="block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis
                             voluptatum maxime, eum
                             consequatur dicta tempore doloribus cumque facere minima rem!</p>
@@ -238,12 +151,11 @@
                 </div>
             </a>
             <a class="servicios-item center-column serv-2">
-                <div class="overlay"></div>
-                <div class="overlay-1"></div>
+
                 <div class="servicios-item-info">
                     <div href="" class="servicios-item-info-title">
 
-                        <h3 class="is-size-5-mobile is-size-4-desktop has-text-weight-bold my-4"> Conserjería</h3>
+                        <h3 class="is-size-4 has-text-weight-bold my-4"> Conserjería</h3>
                         <p class="block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis
                             voluptatum maxime, eum
                             consequatur dicta tempore doloribus cumque facere minima rem!</p>
@@ -251,12 +163,11 @@
                 </div>
             </a>
             <a class="servicios-item center-column serv-3">
-                <div class="overlay"></div>
-                <div class="overlay-1"></div>
+
                 <div class="servicios-item-info">
                     <div href="" class="servicios-item-info-title">
 
-                        <h3 class="is-size-5-mobile is-size-4-desktop has-text-weight-bold my-4"> Parquizado</h3>
+                        <h3 class="is-size-4 has-text-weight-bold my-4"> Parquizado</h3>
                         <p class="block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis
                             voluptatum maxime, eum
                             consequatur dicta tempore doloribus cumque facere minima rem!</p>
@@ -270,39 +181,39 @@
         <div class="spacer"></div>
         <article class="met-body py-6">
             <div class="met-body-title center-column has-text-white pb-6">
-                <h2 class="is-size-3-mobile is-size-2-desktop servicios-title has-text-black f-8">Metodología</h2>
+                <h2 class="is-size-2 servicios-title has-text-black f-8">Metodología</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, voluptatibus.</p>
             </div>
             <div class="met-body-grid">
                 <div class="met-body-grid-item has-text-white has-text-centered center-column">
-                    <div class="num block">
+                    <div class="block">
                         <span>1</span>
-                        <h4 class="is-size-5-mobile is-size-4-desktop has-text-weight-bold">Acercamiento</h4>
+                        <h4 class="is-size-4 has-text-weight-bold">Acercamiento</h4>
                     </div>
                     <p class="block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum voluptate aliquid
                         maiores quasi
                         provident, unde labore!</p>
                 </div>
                 <div class="met-body-grid-item has-text-white has-text-centered center-column">
-                    <div class="num block">
+                    <div class="block">
                         <span>2</span>
-                        <h4 class="is-size-5-mobile is-size-4-desktop has-text-weight-bold">Desarrollo</h4>
+                        <h4 class="is-size-4 has-text-weight-bold">Desarrollo</h4>
                     </div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum voluptate aliquid maiores quasi
                         provident, unde labore!</p>
                 </div>
                 <div class="met-body-grid-item has-text-white has-text-centered center-column">
-                    <div class="num block">
+                    <div class="block">
                         <span>3</span>
-                        <h4 class="is-size-5-mobile is-size-4-desktop has-text-weight-bold">Propuesta</h4>
+                        <h4 class="is-size-4 has-text-weight-bold">Propuesta</h4>
                     </div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum voluptate aliquid maiores quasi
                         provident, unde labore!</p>
                 </div>
                 <div class="met-body-grid-item has-text-white has-text-centered center-column">
-                    <div class="num block">
+                    <div class="block">
                         <span>4</span>
-                        <h4 class="is-size-5-mobile is-size-4-desktop has-text-weight-bold">Trabajo</h4>
+                        <h4 class="is-size-4 has-text-weight-bold">Trabajo</h4>
                     </div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum voluptate aliquid maiores quasi
                         provident, unde labore!</p>
@@ -315,7 +226,7 @@
     <section class="test py-6">
         <article class="test-body">
             <div class="met-body-title center-column has-text-white pb-6">
-                <h2 class="is-size-3-mobile is-size-2-desktop servicios-title has-text-black f-8">Testimonios</h2>
+                <h2 class="is-size-2 servicios-title has-text-black f-8">Testimonios</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, voluptatibus.</p>
             </div>
             <div class="test-body-glide">
@@ -447,8 +358,7 @@
     <section class="cc pt-6">
         <article class="cc-body">
             <div class="cc-body-title center-column has-text-white">
-                <h2 class="is-size-3-mobile is-size-2-desktop servicios-title has-text-black f-8">Calidad y Confianza
-                </h2>
+                <h2 class="is-size-2 servicios-title has-text-black f-8">Calidad y Confianza</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, voluptatibus.</p>
             </div>
             <div class="cc-body-grid">
@@ -475,7 +385,7 @@
     <section class="clientes py-6">
         <article class="clientes-body">
             <div class="clientes-body-info is-flex-direction-column">
-                <h2 class="is-size-3-mobile is-size-2-desktop has-text-black f-8">Clientes</h2>
+                <h2 class="is-size-2 has-text-black f-8">Clientes</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, voluptatibus.</p>
             </div>
             <div class="clientes-body-img">
@@ -489,14 +399,13 @@
         </article>
     </section>
 
-    <section class="cta pt-6">
-        <article class="cta-body">
-            <div class="overlay"></div>
+    <section class="cta py-6">
+        <article class="cta-body ">
             <div class="cta-body-info">
-                <h2 class="is-size-3-mobile is-size-3-desktop has-text-white f-8 block">No esperes más, <br>
+                <h2 class="is-size-3 has-text-white f-8 block">No esperes más, <br>
                     contratá nuestro servicio.</h2>
                 <a href=""
-                    class="button single-spaced is-secondary is-rounded has-text-weight-bold has-text-white block">Contactenos</a>
+                    class="button is-medium single-spaced is-secondary has-text-weight-bold has-text-white block">Contactenos</a>
             </div>
             <img src="img/cta-img.jpg" alt="" srcset="">
         </article>
@@ -545,7 +454,7 @@
                 </a>
 
             </div>
-            <div class="menu menu-serv is-flex-direction-column">
+            <div class="menu is-flex-direction-column">
                 <p class="footer-title">Servicios</p>
                 <a href="servicios.html#limpieza" class="navbar-item">
                     Limpieza
@@ -568,7 +477,7 @@
                 </a>
 
             </div>
-            <div class="contact">
+            <div>
                 <address class="is-flex is-flex-direction-column">
                     <p class="footer-title">Contactanos</p>
                     <a class="navbar-item" href="mailto:hola@spiez.com">hola@spiez.com</a>
@@ -591,7 +500,6 @@
 
     </footer>
 
-    <script src="js/burguermenu.js"></script>
     <script src="js/glide.min.js"></script>
 
     <script>
@@ -601,23 +509,8 @@
             perTouch: 3,
             animationDuration: 600,
             gap: 32,
-            breakpoints: {
-                769: {
-                    perView: 1
-                },
-                576: {
-                    perView: 1
-                }
-            }
         };
         new Glide(".test-body-glide", config).mount();
-        const config_1 = {
-            type: "slider",
-            perView: 1,
-            animationDuration: 600,
-
-        };
-        new Glide(".serv-slider-glide", config_1).mount();
     </script>
 </body>
 
