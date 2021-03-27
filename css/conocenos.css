@@ -7554,9 +7554,9 @@ body {
 
 .hero {
   height: 100vh;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(15%, #fff), color-stop(50%, #0ab1e493)), url(../img/hero-m-1.jpg);
-  background: linear-gradient(0deg, #fff 15%, #0ab1e493 50%), url(../img/hero-m-1.jpg);
-  background-position: center top;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(15%, #fff), color-stop(50%, #0ab1e493)), url(../img/hero-conocenos-m.jpg);
+  background: linear-gradient(0deg, #fff 15%, #0ab1e493 50%), url(../img/hero-conocenos-m.jpg);
+  background-position: center;
 }
 
 .hero-body {
@@ -7636,19 +7636,10 @@ body {
   text-align: center;
   max-height: 350px;
   position: relative;
-  -webkit-clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
-          clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
-}
-
-.nos-body-img img.img-back {
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  display: none;
 }
 
 .nos-body-img img.img-logo {
-  max-width: 250px;
+  max-width: 400px;
 }
 
 .nos-body-info {
@@ -7814,10 +7805,10 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: top;
+     object-position: top;
 }
 
 .c-det-body-glide li > div div.info {
@@ -7956,9 +7947,9 @@ body {
     padding-right: 0rem;
   }
   .hero {
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(0.08%, #2dc7ff), color-stop(69.13%, rgba(255, 255, 255, 0))), url(../img/hero-2.jpg);
-    background: linear-gradient(0deg, #2dc7ff 0.08%, rgba(255, 255, 255, 0) 69.13%), url(../img/hero-2.jpg);
-    height: initial;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0.08%, #2dc7ff), color-stop(69.13%, rgba(255, 255, 255, 0))), url(../img/hero-conocenos.jpg);
+    background: linear-gradient(0deg, #2dc7ff 0.08%, rgba(255, 255, 255, 0) 69.13%), url(../img/hero-conocenos.jpg);
+    height: 650px;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 65%, 0 95%);
             clip-path: polygon(0 0, 100% 0, 100% 65%, 0 95%);
   }
@@ -7972,7 +7963,7 @@ body {
     display: none;
   }
   .hero-body-info-title {
-    color: #fff;
+    color: #ff8500;
     font-size: 4.5rem;
   }
   .hero-serv {
@@ -7999,44 +7990,14 @@ body {
   .nos-body-img {
     display: block;
     max-height: initial;
-    -webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
-            clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
   }
-  .nos-body-img img.img-back {
-    display: block;
-  }
-  .nos-body-img img.img-logo {
-    position: absolute;
-    z-index: 3;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    width: 70%;
-    -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.5));
-            filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.5));
-  }
-  .nos-body-img .overlay {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    background: -webkit-gradient(linear, left bottom, left top, from(#00abe7), color-stop(90%, rgba(255, 255, 255, 0)));
-    background: linear-gradient(360deg, #00abe7 0%, rgba(255, 255, 255, 0) 90%);
+  .nos {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
   }
   .nos-body {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-  }
-  .nos .conocenos {
-    max-height: 450px;
-    -webkit-clip-path: circle();
-            clip-path: circle();
-  }
-  .nos .conocenos .img-logo {
-    width: 60%;
   }
   .nos-conocenos .nos-info h2 {
     font-size: 2.5rem;

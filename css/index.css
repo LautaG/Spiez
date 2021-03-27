@@ -7573,9 +7573,9 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -7670,6 +7670,8 @@ body {
   background-size: cover;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.01), 0 4px 4px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05), 0 18px 18px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 2px rgba(0, 0, 0, 0.01), 0 4px 4px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05), 0 18px 18px rgba(0, 0, 0, 0.1);
 }
 
 .servicios-item-big {
@@ -7687,6 +7689,8 @@ body {
           justify-content: flex-end;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.01), 0 4px 4px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05), 0 18px 18px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 2px rgba(0, 0, 0, 0.01), 0 4px 4px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05), 0 18px 18px rgba(0, 0, 0, 0.1);
 }
 
 .servicios-item-big-info {
@@ -8071,7 +8075,7 @@ body {
     padding-right: 0rem;
   }
   .hero {
-    background: linear-gradient(346deg, #2dc7ff 0.08%, rgba(255, 255, 255, 0) 69.13%), url(../img/hero-2.jpg);
+    background: linear-gradient(346deg, #2dc7ff 0.08%, rgba(255, 255, 255, 0) 69.13%), url(../img/hero-home.jpg);
     height: initial;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 65%, 0 95%);
             clip-path: polygon(0 0, 100% 0, 100% 65%, 0 95%);
@@ -8151,8 +8155,6 @@ body {
   }
   .servicios-item {
     border-radius: 10px;
-    -webkit-filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.07));
-            filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.07));
   }
   .servicios-item .overlay {
     background: -webkit-gradient(linear, left bottom, left top, color-stop(13.54%, #2dc7ff), color-stop(65.38%, rgba(255, 255, 255, 0)));
@@ -8160,8 +8162,6 @@ body {
   }
   .servicios-item-big {
     background-image: url(../img/servicios-big.jpg);
-    -webkit-filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.07));
-            filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.07));
     border-radius: 10px;
     -ms-grid-column: 1;
         grid-column-start: 1;
@@ -8174,8 +8174,8 @@ body {
   .servicios-item-big:hover {
     -webkit-transform: translateY(-5px) scale(1.01) perspective(1200px) rotateY(4deg) rotateX(3deg);
             transform: translateY(-5px) scale(1.01) perspective(1200px) rotateY(4deg) rotateX(3deg);
-    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.01), 0 4px 4px rgba(0, 0, 0, 0.02), 0 8px 8px rgba(0, 0, 0, 0.03), 0 18px 18px rgba(0, 0, 0, 0.04), 0 28px 28px rgba(0, 0, 0, 0.06);
-            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.01), 0 4px 4px rgba(0, 0, 0, 0.02), 0 8px 8px rgba(0, 0, 0, 0.03), 0 18px 18px rgba(0, 0, 0, 0.04), 0 28px 28px rgba(0, 0, 0, 0.06);
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.01), 0 4px 4px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05), 0 18px 18px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.01), 0 4px 4px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05), 0 18px 18px rgba(0, 0, 0, 0.2);
   }
   .servicios-item-big:hover .overlay {
     opacity: 0;
@@ -8190,8 +8190,8 @@ body {
   .servicios-item:hover {
     -webkit-transform: translateY(-5px) scale(1.01) perspective(500px) rotateY(4deg) rotateX(3deg);
             transform: translateY(-5px) scale(1.01) perspective(500px) rotateY(4deg) rotateX(3deg);
-    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.01), 0 4px 4px rgba(0, 0, 0, 0.02), 0 8px 8px rgba(0, 0, 0, 0.03), 0 18px 18px rgba(0, 0, 0, 0.04), 0 28px 28px rgba(0, 0, 0, 0.06);
-            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.01), 0 4px 4px rgba(0, 0, 0, 0.02), 0 8px 8px rgba(0, 0, 0, 0.03), 0 18px 18px rgba(0, 0, 0, 0.04), 0 28px 28px rgba(0, 0, 0, 0.06);
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.01), 0 4px 4px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05), 0 18px 18px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.01), 0 4px 4px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05), 0 18px 18px rgba(0, 0, 0, 0.2);
   }
   .servicios-item:hover .servicios-item-info .servicios-item-info-title {
     color: #fff !important;
