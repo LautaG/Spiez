@@ -95,9 +95,8 @@
     <section class="nos py-6">
         <article class="nos-body nos-body-conocenos center">
             <div class="nos-body-img conocenos is-paddingless">
-                <img class="img-back" src="img/nos.jpg" alt="" srcset="">
-                <img class="img-logo" src="img/logo-n.svg" alt="">
-                <div class="overlay"></div>
+                <img class="img-logo" src="img/logo.svg" alt="">
+
             </div>
             <div class="nos-body-info is-flex is-flex-direction-column is-paddingless is-justify-content-center">
                 <p class="is-size-6 is-uppercase has-text-weight-bold has-text-primary">Lorem ipsum dolor sit amet.</p>
@@ -166,7 +165,7 @@
                 <h2 class="is-size-4-mobile is-size-3-desktop f-8 block has-text-white">Todos nuestros servicios, más la
                     seguridad que buscas
                 </h2>
-                <a href=""
+                <a href="servicios.html"
                     class="button single-spaced is-secondary has-text-weight-bold has-text-white block is-rounded">Los
                     encontrás aquí</a>
             </div>
@@ -180,7 +179,7 @@
                 <h2 class="is-size-3-mobile is-size-2-desktop servicios-title f-8 has-text-black">Ponemos el foco <br>
                     en los detalles</h2>
                 <div class="py-5">
-                    <img src="img/servicios-1.jpg" alt="">
+                    <img src="img/detalle.jpg" alt="">
                     <img src="" alt="">
                     <img src="" alt="">
                 </div>
@@ -200,7 +199,7 @@
                     <div class="img center">
                         <img src="img/ico/conocenos-conserjeria.svg" alt=""></div>
                     <div>
-                        <h4 class="is-size-5 is-uppercase has-text-weight-bold mb-2">Detalle 1</h4>
+                        <h4 class="is-size-5 is-uppercase has-text-weight-bold mb-2">Detalle 2</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellendus culpa adipisci
                             omnis perspiciatis inventore, excepturi cumque eveniet, voluptatum enim maxime ut quae fuga
                             quod!</p>
@@ -210,7 +209,7 @@
                     <div class="img center">
                         <img src="img/ico/conocenos-conserjeria.svg" alt=""></div>
                     <div>
-                        <h4 class="is-size-5 is-uppercase has-text-weight-bold mb-2">Detalle 1</h4>
+                        <h4 class="is-size-5 is-uppercase has-text-weight-bold mb-2">Detalle 3</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellendus culpa adipisci
                             omnis perspiciatis inventore, excepturi cumque eveniet, voluptatum enim maxime ut quae fuga
                             quod!</p>
@@ -232,9 +231,9 @@
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
                     <li class="glide__slide">
-                        <div class="mx-5">
+                        <div>
                             <div class="overlay"></div>
-                            <img src="img/servicios-1.jpg" alt="">
+                            <img src="img/detalle-m.jpg" alt="">
 
                             <div class="info px-5 pb-5">
                                 <h4 class="is-size-5 is-uppercase has-text-weight-bold mb-2">Detalle 1</h4>
@@ -247,8 +246,8 @@
                         </div>
                     </li>
                     <li class="glide__slide">
-                        <div class="mx-5">
-                            <img src="img/servicios-1.jpg" alt="">
+                        <div>
+                            <img src="img/detalle-1-m.jpg" alt="">
 
                             <div class="info px-5 pb-5">
                                 <h4 class="is-size-5 is-uppercase has-text-weight-bold mb-2">Detalle 2</h4>
@@ -261,8 +260,8 @@
                         </div>
                     </li>
                     <li class="glide__slide">
-                        <div class="mx-5">
-                            <img src="img/servicios-1.jpg" alt="">
+                        <div>
+                            <img src="img/detalle-2-m.jpg" alt="">
 
                             <div class="info px-5 pb-5">
                                 <h4 class="is-size-5 is-uppercase has-text-weight-bold mb-2">Detalle 3</h4>
@@ -434,11 +433,14 @@
         const config_1 = {
             type: "slider",
             perView: 1,
+            gap: 16,
+            peek: 24,
             animationDuration: 600,
 
         };
         new Glide(".c-det-body-glide", config_1).mount();
     </script>
+
 </body>
 
 </html>
