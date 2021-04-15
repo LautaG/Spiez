@@ -7639,7 +7639,7 @@ h3.captionn span::after {
 
 .hero-body-info-title {
   line-height: 1.25;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 800;
   margin: 0px !important;
   margin-bottom: 2rem !important;
@@ -8050,6 +8050,7 @@ h3.captionn span::after {
     background: linear-gradient(350deg, #00abe7 0%, rgba(255, 255, 255, 0) 70%);
   }
   .hero-d .hero-glide {
+    cursor: initial;
     max-width: 100% !important;
     height: 100%;
   }
@@ -8232,6 +8233,7 @@ h3.captionn span::after {
     display: none;
   }
   .servicios {
+    padding-bottom: 3rem;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[6];
@@ -8285,11 +8287,11 @@ h3.captionn span::after {
         grid-template-columns: 1fr;
     -ms-grid-rows: 50% 50%;
         grid-template-rows: 50% 50%;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
     -webkit-box-shadow: 0px 0px 15px #e0e6ee;
             box-shadow: 0px 0px 15px #e0e6ee;
     border-radius: 5px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
   }
   .servicios-item p {
     -webkit-box-flex: 1;
@@ -8318,6 +8320,8 @@ h3.captionn span::after {
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
     border: 1px solid #e8e8e8;
     background-image: linear-gradient(315deg, #fff 30%, #e4e7ea 100%);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
   .servicios-item-info-title {
     height: 100%;
@@ -8377,6 +8381,9 @@ h3.captionn span::after {
   .servicios-item:hover .servicios-item-info .servicios-item-info-title {
     color: #fff !important;
   }
+  .servicios-item:hover h3 {
+    color: #f23202;
+  }
   .servicios-item:hover a {
     padding-left: 0.75rem;
     padding-right: 0.5rem;
@@ -8391,21 +8398,41 @@ h3.captionn span::after {
     -webkit-transform: translateY(-2px) scale(1.01) perspective(500px) rotateY(2deg) rotateX(-1deg);
             transform: translateY(-2px) scale(1.01) perspective(500px) rotateY(2deg) rotateX(-1deg);
   }
+  .servicios-item:hover.serv-item-big-1 .servicios-item-big-info {
+    -webkit-box-shadow: -10px 0px 15px #00000081;
+            box-shadow: -10px 0px 15px #00000081;
+  }
   .servicios-item:hover.serv-item-big-2 {
     -webkit-transform: translateY(-2px) scale(1.01) perspective(500px) rotateY(-2deg) rotateX(-1deg);
             transform: translateY(-2px) scale(1.01) perspective(500px) rotateY(-2deg) rotateX(-1deg);
+  }
+  .servicios-item:hover.serv-item-big-2 .servicios-item-big-info {
+    -webkit-box-shadow: 10px 0px 15px #00000081;
+            box-shadow: 10px 0px 15px #00000081;
   }
   .servicios-item:hover.serv-item-1 {
     -webkit-transform: translateY(-2px) scale(1.01) perspective(500px) rotateY(4deg) rotateX(1deg);
             transform: translateY(-2px) scale(1.01) perspective(500px) rotateY(4deg) rotateX(1deg);
   }
+  .servicios-item:hover.serv-item-1 .servicios-item-info {
+    -webkit-box-shadow: 0px -5px 15px #00000081;
+            box-shadow: 0px -5px 15px #00000081;
+  }
   .servicios-item:hover.serv-item-2 {
     -webkit-transform: translateY(-2px) scale(1.01) perspective(500px) rotateY(0deg) rotateX(2deg);
             transform: translateY(-2px) scale(1.01) perspective(500px) rotateY(0deg) rotateX(2deg);
   }
+  .servicios-item:hover.serv-item-2 .servicios-item-info {
+    -webkit-box-shadow: 0px -5px 15px #00000081;
+            box-shadow: 0px -5px 15px #00000081;
+  }
   .servicios-item:hover.serv-item-3 {
     -webkit-transform: translateY(-2px) scale(1.01) perspective(500px) rotateY(-4deg) rotateX(1deg);
             transform: translateY(-2px) scale(1.01) perspective(500px) rotateY(-4deg) rotateX(1deg);
+  }
+  .servicios-item:hover.serv-item-3 .servicios-item-info {
+    -webkit-box-shadow: 0px -5px 15px #00000081;
+            box-shadow: 0px -5px 15px #00000081;
   }
   .servicios-item-big {
     display: -ms-grid;
@@ -8414,6 +8441,8 @@ h3.captionn span::after {
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
   .servicios-item-big-img img {
     width: 100%;
@@ -8428,6 +8457,8 @@ h3.captionn span::after {
     z-index: 3;
     padding: 1.5rem;
     background-image: linear-gradient(315deg, #fff 30%, #e4e7ea 100%);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
   .servicios-item-big-info h3,
   .servicios-item-big-info p {
@@ -8508,7 +8539,7 @@ h3.captionn span::after {
   .cc-body-grid {
     position: absolute;
     width: 100%;
-    bottom: -150px;
+    bottom: -125px;
     -ms-grid-columns: (1fr)[4];
         grid-template-columns: repeat(4, 1fr);
     -webkit-column-gap: 3rem;
@@ -8517,25 +8548,29 @@ h3.captionn span::after {
             filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.1));
   }
   .cc-body-grid-item {
-    height: 300px;
-    padding: 0px;
-    background: #ffffff;
-    -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-            clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    height: 250px;
+    padding: 2rem;
+    border-radius: 50%;
+    width: 250px;
+    border: 5px solid #dfdfe3;
+    background: white;
+    background: radial-gradient(circle, white 50%, #d8dae6 100%);
+    -webkit-box-shadow: 0px 0px 15px #2e2f405e;
+            box-shadow: 0px 0px 15px #2e2f405e;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
   .cc-body-grid-item p {
     font-size: 1rem;
   }
   .cc-body-grid-item img {
-    width: 50%;
+    width: 60%;
     margin-top: -0.5rem;
     margin-bottom: 0.5rem;
   }
   .cc-body-grid-item:hover {
-    background: conic-gradient(from 180deg at 50% 50%, #00abe7 0deg, #2dc7ff 360deg), #ffffff;
-  }
-  .cc-body-grid-item:hover p {
-    color: #fff;
+    -webkit-box-shadow: 0px 0px 15px #2e2f4085;
+            box-shadow: 0px 0px 15px #2e2f4085;
   }
   .clientes {
     margin-bottom: 0rem;
