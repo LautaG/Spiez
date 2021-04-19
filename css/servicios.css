@@ -7917,6 +7917,40 @@ h3.captionn-invert span::before, h3.captionn-invert span::after {
   margin-bottom: 1rem !important;
 }
 
+.cta-serv a {
+  z-index: 3;
+  position: relative;
+  border-radius: 0px !important;
+  border: 0px;
+}
+
+.cta-serv a::after {
+  position: absolute;
+  z-index: -1;
+  content: " ";
+  width: 5px;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+  background-color: #000;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-serv a:hover {
+  color: #fff !important;
+}
+
+.cta-serv a:hover::after {
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+  background-color: #000;
+}
+
 @media screen and (min-width: 960px) {
   .ds-body,
   .limp-serv-body,
@@ -7955,8 +7989,8 @@ h3.captionn-invert span::before, h3.captionn-invert span::after {
   }
   .ds-body {
     row-gap: 3rem;
-    -ms-grid-columns: 1fr 2fr;
-        grid-template-columns: 1fr 2fr;
+    -ms-grid-columns: 1fr 1.5fr;
+        grid-template-columns: 1fr 1.5fr;
   }
   .ds-body-cta {
     padding: 1rem 2rem !important;
@@ -8166,7 +8200,7 @@ h3.captionn-invert span::before, h3.captionn-invert span::after {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
-    padding: 1.5rem 1.5rem 2rem 1.5rem;
+    padding: 1.5rem 1rem 2rem 1.5rem;
     max-width: 350px;
     height: 100%;
   }
@@ -8190,6 +8224,9 @@ h3.captionn-invert span::before, h3.captionn-invert span::after {
     transition: all 0.3s ease-in-out;
   }
   .limp-serv-item-info-title p {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
     color: #fff;
     z-index: 3;
     -webkit-transition: all 0.3s ease-in-out;

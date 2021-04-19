@@ -8053,12 +8053,22 @@ h3.captionn span::after {
     background: -webkit-gradient(linear, left top, left bottom, from(#f23202), color-stop(50%, #fd4d21)), #fd4d21;
     background: linear-gradient(180deg, #f23202 0%, #fd4d21 50%), #fd4d21;
   }
+  .gamas-body {
+    padding-top: 6rem !important;
+  }
   .gamas-body-title {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    text-align: left;
     color: #fff;
   }
   .gamas-body-grid {
-    -ms-grid-columns: (1fr)[5];
-        grid-template-columns: repeat(5, 1fr);
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    -webkit-column-gap: 4rem;
+            column-gap: 4rem;
+    row-gap: 4rem;
   }
   .gamas-body-grid-item {
     -webkit-box-align: start;
@@ -8086,6 +8096,11 @@ h3.captionn span::after {
   .gamas-body-grid-item h4,
   .gamas-body-grid-item p {
     color: #fff !important;
+  }
+  .gamas-body-grid-item p {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
   }
   .c-det {
     background-color: #fd4d21;
@@ -8134,6 +8149,9 @@ h3.captionn span::after {
     padding: 4rem 0rem;
   }
   .c-det-body-info-item {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     cursor: pointer;
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
@@ -8206,6 +8224,7 @@ h3.captionn span::after {
     padding-bottom: 3rem !important;
   }
   .datos-nos-body-grid-item {
+    padding-left: 0px;
     text-align: initial;
     border: none;
   }
