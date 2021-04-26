@@ -8025,7 +8025,7 @@ h3.captionn-invert span::before, h3.captionn-invert span::after {
     margin-bottom: 3rem;
   }
   .data-block-limpieza p {
-    text-align: left !important;
+    text-align: left;
   }
   .data-block-mantenimiento {
     padding-top: 6rem !important;
@@ -8044,6 +8044,7 @@ h3.captionn-invert span::before, h3.captionn-invert span::after {
     margin-bottom: 1rem !important;
   }
   .data-block-body-title p {
+    text-align: justify;
     max-width: initial;
   }
   .data-block-body-info {
