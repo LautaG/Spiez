@@ -7549,8 +7549,7 @@ body {
 .nos-body,
 .gamas-body,
 .cta-serv-body,
-.datos-nos-body,
-.clientes-nos-body-body {
+.datos-nos-body {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
@@ -7908,39 +7907,6 @@ h3.captionn span::after {
   font-weight: 800;
 }
 
-.clientes-nos-body {
-  position: relative;
-  padding: 2rem 1.5rem;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  row-gap: 2rem;
-  -webkit-column-gap: 1rem;
-          column-gap: 1rem;
-  justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.clientes-nos-body::before, .clientes-nos-body::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(192, 204, 218, 0.1)), color-stop(50.38%, rgba(192, 204, 218, 0.6)), to(rgba(192, 204, 218, 0.1)));
-  background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
-}
-
-.clientes-nos-body::before {
-  top: 0px;
-}
-
-.clientes-nos-body::after {
-  bottom: 0px;
-}
-
 .cta-body {
   background: -webkit-gradient(linear, left top, left bottom, from(#f23202), to(#fd4d21)), #f23202;
   background: linear-gradient(180deg, #f23202 0%, #fd4d21 100%), #f23202;
@@ -7989,8 +7955,7 @@ h3.captionn span::after {
   .nos-body,
   .gamas-body,
   .cta-serv-body,
-  .datos-nos-body,
-  .clientes-nos-body-body {
+  .datos-nos-body {
     padding-left: 0rem;
     padding-right: 0rem;
   }
@@ -8239,10 +8204,6 @@ h3.captionn span::after {
     width: 100%;
     height: 4px;
     background-color: #000;
-  }
-  .clientes-nos-body {
-    -ms-grid-columns: (1fr)[6];
-        grid-template-columns: repeat(6, 1fr);
   }
 }
 /*# sourceMappingURL=conocenos.css.map */

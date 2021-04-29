@@ -7549,8 +7549,7 @@ body {
 .nos-body,
 .met-body,
 .test-body,
-.cc-body,
-.clientes-body {
+.cc-body {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
@@ -7936,32 +7935,6 @@ h3.captionn span::after {
   padding: 1rem;
 }
 
-.clientes {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.clientes-body {
-  text-align: center;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  row-gap: 2rem;
-}
-
-.clientes-body-img {
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  justify-items: center;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  row-gap: 3rem;
-}
-
 .cta-body {
   background: -webkit-gradient(linear, left top, left bottom, from(#f23202), to(#fd4d21)), #f23202;
   background: linear-gradient(180deg, #f23202 0%, #fd4d21 100%), #f23202;
@@ -8010,8 +7983,7 @@ h3.captionn span::after {
   .nos-body,
   .met-body,
   .test-body,
-  .cc-body,
-  .clientes-body {
+  .cc-body {
     padding-left: 0rem;
     padding-right: 0rem;
   }
@@ -8604,21 +8576,6 @@ h3.captionn span::after {
   .cc-body-grid-item:hover {
     -webkit-box-shadow: 0px 0px 15px #2e2f4085;
             box-shadow: 0px 0px 15px #2e2f4085;
-  }
-  .clientes {
-    margin-bottom: 0rem;
-    margin-top: 0rem;
-  }
-  .clientes-body {
-    text-align: initial;
-    -ms-grid-columns: 1fr 2fr;
-        grid-template-columns: 1fr 2fr;
-    -webkit-column-gap: 2rem;
-            column-gap: 2rem;
-  }
-  .clientes-body-img {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
   }
   .cta {
     background: url(../img/bg-dott.png), -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(80%, #fff0));
